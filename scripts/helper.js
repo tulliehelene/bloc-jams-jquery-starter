@@ -5,7 +5,10 @@ class Helper {
         $('#time-control .total-time').text(duration);
         player.playPause(song);
     }
+<<<<<<< HEAD
     $('#time-control .total-time').text(totalTime);
   };
+=======
+>>>>>>> check11
 }
 const helper = new Helper();
