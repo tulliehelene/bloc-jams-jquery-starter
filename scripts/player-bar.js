@@ -17,10 +17,21 @@
       helper.playPauseAndUpdate(nextSong);
    });
 
+   setInterval( () => {
+     if (player.playState !== 'playing') { return; }
+     const currentTime = player.getTime();
+     const duration = player.getDuration();
+     const percent = (currentTime / duration) * 100;
+     $('#time-control .current-time').text( currentTime );
+     $('#time-control input').val(percent);
+   }, 1000);
+
+
    $('#time-control input').on('input', function (event) {
       player.skipTo(event.target.value);
    });
 
+<<<<<<< HEAD
    setInterval( () => {
      if (player.playState !== 'playing') { return; }
      const currentTime = player.getTime();
@@ -31,6 +42,8 @@
    }, 1000);
 }
 
+=======
+>>>>>>> check11
    // begin checkpoint 11 assignment
 
    $('#volume-control input').on('input', function (event) {
