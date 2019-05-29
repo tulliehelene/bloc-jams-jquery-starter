@@ -10,18 +10,6 @@ class Player {
     return this.soundObject.getDuration();
   }
 
-  class Player {
-  constructor () {
-    this.currentlyPlaying = album.songs[0];
-    this.playState = 'stopped';
-    this.volume = 80;
-    this.soundObject = new buzz.sound(this.currentlyPlaying.soundFileUrl);
-  }
-
-  getDuration() {
-    return this.soundObject.getDuration();
-  }
-
   getTime() {
     return this.soundObject.getTime();
   }
