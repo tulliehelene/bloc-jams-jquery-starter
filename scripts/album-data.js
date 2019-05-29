@@ -1,5 +1,5 @@
 const album = {
-  title: 'Words & Music',
+  title: 'Bloc Jams by Tullie',
   artist: 'Tullie Helene',
   releaseInfo: 'Various Artists included',
   albumArtUrl: 'assets/images/album_covers/bus.png',
