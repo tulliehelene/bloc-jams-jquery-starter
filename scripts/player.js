@@ -10,6 +10,18 @@ class Player {
     return this.soundObject.getDuration();
   }
 
+  class Player {
+  constructor () {
+    this.currentlyPlaying = album.songs[0];
+    this.playState = 'stopped';
+    this.volume = 80;
+    this.soundObject = new buzz.sound(this.currentlyPlaying.soundFileUrl);
+  }
+
+  getDuration() {
+    return this.soundObject.getDuration();
+  }
+
   getTime() {
     return this.soundObject.getTime();
   }
@@ -47,7 +59,13 @@ class Player {
     this.volume = percent;
     this.soundObject.setVolume(percent);
   }
-  // Extra points... *tried for over an hour. Checkpoint 11 bonus
-  // class=prettyTime, parameter(timeInSeconds) <=== needs to output time in M:SS format
+
+  prettyTime (timeInSeconds) {
+    const minutes = Math.floor(timeInSeconds / 60);
+    const seconds = Math.floor(timeInSeconds % 60) <= 9 ? `0${Math.floor(timeInSeconds % 60)}` : Math.floor(timeInSeconds % 60);
+    return `${minutes}:${seconds}`;
+  }
+
 }
-  const player = new Player();
+
+const player = new Player();

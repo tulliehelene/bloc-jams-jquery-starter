@@ -1,13 +1,13 @@
 const album = {
-  title: 'Game of Thrones Greatest Hits',
-  artist: 'Various Artists from the Seven Kingdoms',
-  releaseInfo: '2019 BLOC Academy Learnings',
-  albumArtUrl: 'assets/images/album_covers/ironthrone.png',
+  title: 'Words & Music',
+  artist: 'Tullie Helene',
+  releaseInfo: 'Various Artists included',
+  albumArtUrl: 'assets/images/album_covers/bus.png',
   songs: [
-    { title: 'The Hound on a Good Day', duration: '161.71', soundFileUrl: 'assets/music/blue.mp3' },
-    { title: 'The Birth of a Targaryen', duration: '103.96', soundFileUrl: 'assets/music/green.mp3' },
-    { title: 'When Daenerys met Jon Snow (aka Aegon)', duration: '268.45', soundFileUrl: 'assets/music/red.mp3' },
-    { title: 'March of the Westerosi', duration: '153.14', soundFileUrl: 'assets/music/pink.mp3' },
-    { title: 'Battle for the Iron Throne', duration: '374.22', soundFileUrl: 'assets/music/magenta.mp3' }
+    { title: 'Back On You', duration: '175.00', soundFileUrl: 'assets/music/backonyou.mp3' },
+    { title: 'Forever (15min Writing exercise)', duration: '119.00', soundFileUrl: 'assets/music/forever.mp3' },
+    { title: 'Makeover (Sung by Mesha Steele)', duration: '216.00', soundFileUrl: 'assets/music/makeover.m4a' },
+    { title: 'Take Me Back (Banton Bros. Collaboration)', duration: '225.00', soundFileUrl: 'assets/music/takemeback.mp3' },
+    { title: 'Whatever (feat. Stella Rhymes)', duration: '236.00', soundFileUrl: 'assets/music/whatever.mp3' }
   ]
 };
