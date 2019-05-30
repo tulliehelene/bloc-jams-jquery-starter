@@ -2,7 +2,7 @@
 # Bloc Jams
 A web based media player application coded using the jQuery framework library.
 Built out a Media player from a forked project.
-![Bloc Jams Logo]<img src="https://github.com/tulliehelene/bloc-jams-jquery-starter/blob/master/assets/images/bloc_jams_logo.png" width="10%"/>
+<img src="https://github.com/tulliehelene/bloc-jams-jquery-starter/blob/master/assets/images/bloc_jams_logo.png" width="10%" alt="Bloc Jams Logo"/>
 ## Features
 * Building a media player with jQuery
 * Click on a file to start, click again to pause
